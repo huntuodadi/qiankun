@@ -12,12 +12,12 @@ const apps = [
     container: '#vue',
     activeRule: '/vue',
   },
-  // {
-  //   name: 'reactApp',
-  //   entry: '//localhost:3000', //子应用必须支持跨域
-  //   container: '#react',
-  //   activeRule: '/react',
-  // }
+  {
+    name: 'reactApp',
+    entry: '//localhost:3000', //子应用必须支持跨域
+    container: '#react',
+    activeRule: '/react',
+  }
 ];
 
 registerMicroApps(apps);

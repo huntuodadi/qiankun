@@ -15,7 +15,7 @@ function render(props) {
   instance = new Vue({
     router,
     render: (h) => h(App),
-  }).$mount('#app'); // 挂在到自己的html中 基座会拿到挂载后的html插到base app中
+  }).$mount('#root'); // 挂在到自己的html中 基座会拿到挂载后的html插到base app中
 }
 
 if (window.__POWERED_BY_QIANKUN__) {
